@@ -548,16 +548,16 @@
 
 // Badges
 // -------------------------
-@badge-color:                 #fff;
-@badge-link-hover-color:      @link-hover-color;
+@badge-color:                 @body-bg;
+@badge-link-hover-color:      @badge-color;
 @badge-bg:                    @gray-light;
 
-@badge-active-color:          @link-color;
-@badge-active-bg:             #fff;
+@badge-active-color:          @badge-color;
+@badge-active-bg:             @link-hover-color;
 
-@badge-font-weight:           bold;
-@badge-line-height:           1;
-@badge-border-radius:         10px;
+@badge-font-weight:           normal;
+@badge-line-height:           1.2em;
+@badge-border-radius:         2em;
 
 
 // Breadcrumbs
@@ -565,7 +565,7 @@
 @breadcrumb-bg:               #f5f5f5;
 @breadcrumb-color:            #ccc;
 @breadcrumb-active-color:     @gray-light;
-@breadcrumb-separator:        "/";
+@breadcrumb-separator:        ">";
 
 
 // Carousel
