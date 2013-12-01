@@ -1,0 +1,55 @@
+// Links ======================================================================
+
+a {
+    &:focus,
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+// Captions ===================================================================
+
+figcaption {
+    background-color: @btn-default-bg;
+    border-radius: @border-radius-small;
+    color: @btn-default-color;
+    line-height: 2em;
+    .small();
+    .text-center();
+
+    &,
+    & a,
+    & a:active,
+    & a:focus,
+    & a:hover {
+        color: @btn-default-color;
+    }
+
+    & a {
+        margin-left: 0.8em;
+        margin-right: 0.8em;
+        .pull-right();
+    }
+
+    & a:active,
+    & a:focus,
+    & a:hover
+     {
+        text-decoration: underline;
+    }
+}
+
+
+// Code =======================================================================
+
+code {
+  font-size: 100%;
+} 
+
+a code {
+  color: inherit;
+}
+
+pre {
+    margin: 0;
+}
