@@ -8,19 +8,23 @@
 
 // Navbar =====================================================================
 
+.navbar-default {
+	background: fade(@navbar-default-bg, 95%);
+}
+
 .navbar-inner {
 	margin-top: 5px;
 }
 
 .navbar-brand-img {
 	.pull-left();
-	height: @font-size-h1;
+	height: @font-size-h2;
 	margin-right: @navbar-padding-horizontal;
 }
 
 .navbar-brand {
     font-family: @font-family-serif;
-    font-size: @font-size-h1;
+    font-size: @font-size-h2;
 }
 
 @media (max-width: @screen-xs-max) {
